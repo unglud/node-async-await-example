@@ -1,0 +1,24 @@
+{
+  "name": "prosieben-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --recursive",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "config": "^1.30.0",
+    "express": "^4.16.3",
+    "nock": "^9.4.2",
+    "npm": "^6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3"
+  }
+}
