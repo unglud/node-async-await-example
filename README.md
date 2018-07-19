@@ -31,11 +31,11 @@ http://localhost:8008/getCityInformation/london
 In response will be returned json with data from other APIs
 ```json
 {
-  weather: {
-    temperature: 26
+  "weather": {
+    "temperature": 26
   },
-  time: {
-    localTime: "16:7"
+  "time": {
+    "localTime": "16:7"
   }
 }
 ```
